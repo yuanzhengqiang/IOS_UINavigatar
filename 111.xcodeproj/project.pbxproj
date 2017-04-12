@@ -14,6 +14,7 @@
 		12FD99DE1E9DC12900748893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FD99DC1E9DC12900748893 /* LaunchScreen.storyboard */; };
 		12FD99E91E9DC12900748893 /* _11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD99E81E9DC12900748893 /* _11Tests.swift */; };
 		12FD99F41E9DC12900748893 /* _11UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD99F31E9DC12900748893 /* _11UITests.swift */; };
+		12FD9A021E9DCB6100748893 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD9A011E9DCB6100748893 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		12FD99EF1E9DC12900748893 /* 111UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 111UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FD99F31E9DC12900748893 /* _11UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _11UITests.swift; sourceTree = "<group>"; };
 		12FD99F51E9DC12900748893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FD9A011E9DCB6100748893 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = ../ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				12FD99D31E9DC12900748893 /* AppDelegate.swift */,
 				12FD99D51E9DC12900748893 /* ViewController.swift */,
+				12FD9A011E9DCB6100748893 /* ViewController2.swift */,
 				12FD99D71E9DC12900748893 /* Main.storyboard */,
 				12FD99DA1E9DC12900748893 /* Assets.xcassets */,
 				12FD99DC1E9DC12900748893 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				12FD99D61E9DC12900748893 /* ViewController.swift in Sources */,
 				12FD99D41E9DC12900748893 /* AppDelegate.swift in Sources */,
+				12FD9A021E9DCB6100748893 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				12FD99FA1E9DC12900748893 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12FD99FB1E9DC12900748893 /* Build configuration list for PBXNativeTarget "111Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				12FD99FD1E9DC12900748893 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12FD99FE1E9DC12900748893 /* Build configuration list for PBXNativeTarget "111UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				12FD9A001E9DC12900748893 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
